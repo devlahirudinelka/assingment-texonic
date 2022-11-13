@@ -11,6 +11,9 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding-top: 20px;
+    border-right: 2px solid #B2B2B2;
+    position: fixed;
+    height: 100vh;
 }
 
 .pages-view-bar {
@@ -18,5 +21,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-top: 20px;
+    padding: 20px 50px 20px 50px;
+    margin-left: 14vw;
 }

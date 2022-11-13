@@ -1,10 +1,119 @@
-.input-field-main{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.input-field-main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    row-gap: 8px;
+    row-gap: 5px;
+
 }
-sup{
+
+sup {
     color: red;
+}
+
+.input-label {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #354259;
+    font-weight: 900;
+}
+
+.input-field {
+    width: 100%;
+    height: 4vh;
+    border: 1px solid #B2B2B2;
+    padding-left: 10px;
+    font-size: 15px;
+    width: 38.25vw;
+    border-radius: 8px;
+}
+
+/* ---------------------------------------------- */
+.input-field-main-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 5px;
+
+}
+
+sup {
+    color: red;
+}
+
+.input-label-two {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #354259;
+    font-weight: 900;
+}
+
+.input-field-two {
+    width: 100%;
+    height: 4vh;
+    border: 1px solid #B2B2B2;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    width: 17.75vw;
+}
+
+
+/* ---------------------------------------------- */
+.input-field-main-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 5px;
+
+}
+
+sup {
+    color: red;
+}
+
+.input-label-three {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #354259;
+    font-weight: 900;
+}
+
+.input-field-three {
+    width: 100%;
+    height: 4vh;
+    border: 1px solid #B2B2B2;
+    padding-left: 10px;
+    font-size: 15px;
+    width: 79.3vw;
+    border-radius: 8px;
+}
+
+/* ------------------------------ */
+.input-field-area {
+   
+    height: 12.8vh;
+    border: 1px solid #B2B2B2;
+    padding-left: 15px;
+    font-size: 15px;
+    width: 63.8vw;
+    text-align: start;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+/* ---------------------------------- */
+.input-field-area-two {
+ 
+    height: 12.8vh;
+    border: 1px solid #B2B2B2;
+    padding-left: 15px;
+    font-size: 15px;
+    width: 79vw;
+    text-align: start;
+    padding-top: 10px;
+    border-radius: 8px;
 }

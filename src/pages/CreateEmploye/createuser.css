@@ -1,6 +1,73 @@
-.createUser{
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+
+.createUser {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+
     justify-content: flex-start;
+
+}
+
+.create-title-name {
+    font-family: 'Signika', sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #354259;
+}
+
+.rowOne {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+    width: 80vw;
+}
+
+.rowTwo {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+    width: 80vw;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 30px;
+}
+
+.label-text {
+    margin-left: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif
+}
+
+.button-row {
+    width: 80vw;
+    column-gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.submit,
+.reset {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    width:6vw;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.submit{
+background-color: #2191ff;
+
+}
+.reset {
+   background-color: #ff850c;
 }

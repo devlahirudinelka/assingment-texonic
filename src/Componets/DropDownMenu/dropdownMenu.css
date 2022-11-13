@@ -1,0 +1,104 @@
+.form-select {
+    height: 4.4vh;
+    width: 18.5vw;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #B2B2B2;
+}
+
+.input-field-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 5px;
+
+}
+
+sup {
+    color: red;
+}
+
+.input-label {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #354259;
+    font-weight: 900;
+}
+
+.optionText {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+/* ----------------------------------- */
+.form-select-two {
+    height: 4.4vh;
+    width: 25.32vw;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #B2B2B2;
+}
+
+.input-field-main-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 5px;
+
+}
+
+sup {
+    color: red;
+}
+
+.input-label-two {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #354259;
+    font-weight: 900;
+}
+
+.optionText-two {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+
+/* ----------------------------------- */
+.form-select-four {
+    height: 4.4vh;
+    width: 39vw;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #B2B2B2;
+}
+
+.input-field-main-four {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 5px;
+
+}
+
+sup {
+    color: red;
+}
+
+.input-label-four {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #354259;
+    font-weight: 900;
+}
+
+.optionText-four {
+    padding-left: 10px;
+    font-size: 15px;
+}

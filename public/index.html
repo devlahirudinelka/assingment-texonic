@@ -31,6 +31,21 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+  <script>
+    let coverPreview = document.getElementById('coverPreview');
+    let cover = document.getElementById('cover');
+
+    coverPreview.addEventListener('click', _ => cover.click());
+
+    cover.addEventListener("change", _ => {
+      let file = cover.files[0];
+      let reader = new FileReader();
+      reader.onload = function () {
+        coverPreview.src = reader.result;
+      }
+      reader.readAsDataURL(file);
+    });
+  </script>
 </body>
 
 </html>

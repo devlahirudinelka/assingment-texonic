@@ -11,27 +11,22 @@ export default function Home(props) {
             <div className="home">
                 <BrowserRouter>
                     <div className="nan-link-bar">
-
                         <NavLinkBar
                             icons="https://i.imgur.com/X47eTVg.png"
                             titleNavLinks="Create Employee"
                             route="/create-user"
                         />
-
-
                         <NavLinkBar
                             icons="https://i.imgur.com/C6GSTQ4.png"
                             titleNavLinks="View Employees"
                             route="/user-details"
                         />
-
                     </div>
                     <div className="pages-view-bar">
                         <Routes>
                             <Route path="/" exact element={<></>}></Route>
                             <Route path="/create-user" exact element={<CreateUser />}></Route>
                             <Route path="/user-details" element={<ViewUser />}></Route>
-
                         </Routes>
                     </div>
                 </BrowserRouter>
