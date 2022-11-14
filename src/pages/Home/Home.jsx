@@ -5,6 +5,8 @@ import './home.css'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import CreateUser from '../CreateEmploye/CreateUser';
 import ViewUser from '../ViewEmploye/ViewUser';
+import Welcome from '../Welcome';
+import UpdateEmploye from '../UpdateEmploye/UpdateEmploye';
 export default function Home(props) {
     return (
         <>
@@ -24,9 +26,11 @@ export default function Home(props) {
                     </div>
                     <div className="pages-view-bar">
                         <Routes>
-                            <Route path="/" exact element={<></>}></Route>
+                            <Route path="/" exact element={<Welcome />}></Route>
                             <Route path="/create-user" exact element={<CreateUser />}></Route>
                             <Route path="/user-details" element={<ViewUser />}></Route>
+                            <Route path="/edit-user" element={<UpdateEmploye/>}/>
+                            
                         </Routes>
                     </div>
                 </BrowserRouter>

@@ -9,7 +9,7 @@ export default function NavLinkBar(props) {
                 <Link to={props.route} className='navLink'>
                     <img src={props.icons} alt="" className='nav-link-img' />
                     <span className='text-nav-links'>{props.titleNavLinks}</span>
-               </Link>
+                </Link>
             </div>
         </>
     )

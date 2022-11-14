@@ -1,0 +1,123 @@
+.viewuser {
+
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+}
+
+.view-title-name {
+    font-family: 'Signika', sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #354259;
+}
+
+.table {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.headerRow {
+    width: 80vw;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+    font-size: large;
+    font-weight: 800;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    font-size: large;
+    font-weight: 800;
+    column-gap: 20px;
+}
+
+.user-details-row {
+    width: 80vw;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.column-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+    font-size: medium;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.column-detailsss {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-size: medium;
+    font-weight: 500;
+    column-gap: 20px;
+}
+
+.column-detailss {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+    font-size: medium;
+    font-weight: 500;
+    column-gap: 20px;
+}
+
+.edit-button,
+.deactivate-button {
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+}
+
+.checkbox-edit {
+    width: 20px;
+    height: 20px;
+}
+
+.edit-button {
+    border: 2px solid #4BB543;
+    color: #4BB543;
+    font-size: medium;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.deactivate-button {
+    border: 2px solid #DC3545;
+    color: #DC3545;
+    font-size: medium;
+    font-weight: 500;
+    background-color: transparent;
+}

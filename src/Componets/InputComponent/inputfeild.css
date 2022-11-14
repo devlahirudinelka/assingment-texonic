@@ -30,6 +30,29 @@ sup {
     border-radius: 8px;
 }
 
+
+input:optional {
+    border-color: gray;
+}
+
+input:required:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:required:focus:valid {
+    background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% ;
+    background-size: 25px;
+
+}
+
+input:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50%;
+    background-size: 25px;
+}
 /* ---------------------------------------------- */
 .input-field-main-two {
     display: flex;
@@ -61,7 +84,28 @@ sup {
     width: 17.75vw;
 }
 
+.input-field-two:optional {
+    border-color: gray;
+}
 
+.input-field-two:required:valid {
+    border-color: green;
+}
+
+.input-field-two:invalid {
+    border-color: red;
+}
+
+.input-field-two:required:focus:valid {
+    background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50%;
+    background-size: 25px;
+
+}
+
+.input-field-two:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50%;
+    background-size: 25px;
+}
 /* ---------------------------------------------- */
 .input-field-main-three {
     display: flex;
@@ -95,7 +139,7 @@ sup {
 
 /* ------------------------------ */
 .input-field-area {
-   
+
     height: 12.8vh;
     border: 1px solid #B2B2B2;
     padding-left: 15px;
@@ -105,9 +149,10 @@ sup {
     padding-top: 10px;
     border-radius: 8px;
 }
+
 /* ---------------------------------- */
 .input-field-area-two {
- 
+
     height: 12.8vh;
     border: 1px solid #B2B2B2;
     padding-left: 15px;

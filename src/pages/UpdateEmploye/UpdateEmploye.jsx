@@ -10,12 +10,12 @@ import InputFeildOne from '../../Componets/InputComponent/InputFeildOne'
 import InputFeild from '../../Componets/InputComponent/InputFeildOne'
 import InputFeildThree from '../../Componets/InputComponent/InputFeildThree'
 import InputFeildTwo from '../../Componets/InputComponent/InputFeildTwo'
-import './createuser.css'
-export default function CreateUser(props) {
+import '../CreateEmploye/createuser.css'
+export default function UpdateEmploye(props) {
     return (
         <>
             <div className="createUser">
-                <span className='create-title-name'>Create Employee</span>
+                <span className='create-title-name'>Update Employee</span>
                 <form class="form-container">
                     <div class="rowOne">
                         <div class="col">
@@ -152,8 +152,8 @@ export default function CreateUser(props) {
                         </div>
                         <div className="Col">
                             <InputAreaOne
-                                labelname="Description"
-                                placeholder="Enter Description"
+                                labelname="Address"
+                                placeholder="Enter Address"
                                 star=""
                             />
                         </div>

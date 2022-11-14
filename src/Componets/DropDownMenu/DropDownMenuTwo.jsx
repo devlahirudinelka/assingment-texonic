@@ -5,7 +5,7 @@ export default function DropDownMenuTwo(props) {
         <>
             <div className="input-field-main-two">
                 <label for={props.usage} className="input-label">{props.labelname}<sup>{props.star}</sup></label>
-                <select class="form-select-two" aria-label="">
+                <select class="form-select-two" aria-label="" required>
                     <option selected className='optionText-two'>- Select -</option>
                     <option value="1" className='optionText-two'>{props.optionOne}</option>
                     <option value="2" className='optionText-two'>{props.optionTwo}</option>
